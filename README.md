@@ -79,7 +79,7 @@ Missing something? [Request a service](../../issues/new?template=service_request
 | Configure from your computer | | ✓ | ✓ |
 | Future features | | | ✓ |
 
-**LabDeck Plus is US$4.99, one time. LabDeck Pro is US$4.99 per year, auto-renewing until you cancel.** Both are shared with your family through Family Sharing, and Restore Purchases covers both. Manage or cancel Pro in Settings > Apple Account > Subscriptions. No subscription required: free tier plus a one-time Plus. Pro is an optional yearly subscription for unlimited services and future features. Going over a limit never hides or deletes the services you have; you just can't add more without Plus or Pro.
+**LabDeck Plus is US$4.99, one time. LabDeck Pro is US$4.99 per year, auto-renewing until you cancel.** Pro's US$4.99/year is a launch price and will go up later; early subscribers keep it while they stay subscribed. Both are shared with your family through Family Sharing, and Restore Purchases covers both. Manage or cancel Pro in Settings > Apple Account > Subscriptions. No subscription required: free tier plus a one-time Plus. Pro is an optional yearly subscription for unlimited services and future features. Going over a limit never hides or deletes the services you have; you just can't add more without Plus or Pro.
 
 ## Privacy
 
@@ -109,7 +109,7 @@ Prefer email? labdeck@smides.cl. Security issue? Email, don't open a public issu
 
 I read every request and add missing services as fast as I can. The goal is one app for the whole lab, and I can't test every piece of gear myself, so if your service isn't there or something breaks, [open a request](../../issues/new/choose) and I'll work on it. If you can test a TestFlight build against your own setup, say so in the request.
 
-**Beta testers welcome:** new services and fixes land on TestFlight first. Join here: **[testflight.apple.com/join/4vK4wrtx](https://testflight.apple.com/join/4vK4wrtx)** (limited spots; Plus and Pro features are unlocked in beta).
+**Beta testers welcome:** new services and fixes land on TestFlight first. Join here: **[testflight.apple.com/join/4vK4wrtx](https://testflight.apple.com/join/4vK4wrtx)** (limited spots; Plus and Pro features are unlocked in beta). Frigate NVR support (live cameras, events, license plates) is in beta there now.
 
 ## Links
 
