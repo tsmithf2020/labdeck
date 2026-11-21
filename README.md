@@ -108,6 +108,8 @@ Prefer email? labdeck@smides.cl. Security issue? Email, don't open a public issu
 
 I read every request and add missing services as fast as I can. The goal is one app for the whole lab, and I can't test every piece of gear myself, so if your service isn't there or something breaks, [open a request](../../issues/new/choose) and I'll work on it. If you can test a TestFlight build against your own setup, say so in the request.
 
+**Beta testers welcome:** new services and fixes land on TestFlight first. Join here: **[testflight.apple.com/join/4vK4wrtx](https://testflight.apple.com/join/4vK4wrtx)** (limited spots; Pro features are unlocked in beta).
+
 ## Links
 
 - App Store: https://apps.apple.com/app/id6836890094

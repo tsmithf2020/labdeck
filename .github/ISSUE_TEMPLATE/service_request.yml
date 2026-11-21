@@ -59,6 +59,6 @@ body:
     id: test
     attributes:
       label: Can you test a TestFlight build?
-      description: New services ship to TestFlight first; testing against a real instance is the fastest way to get it right.
+      description: New services ship to TestFlight first; testing against a real instance is the fastest way to get it right. Join the beta: https://testflight.apple.com/join/4vK4wrtx
       options:
         - label: I can test a TestFlight build against my instance.
