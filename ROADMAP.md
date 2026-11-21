@@ -1,4 +1,3 @@
-<!-- OWNER: review every line before publishing. These items are drafted, not decided. The "Not planned" section states positions only you can take; edit or delete them. No source in notas/ lists a roadmap. -->
 # Roadmap
 
 > **These are ideas, not promises.** No dates, no guarantees, and the order can change. Some may never ship. What you ask for in issues and 👍 reactions moves things up.
