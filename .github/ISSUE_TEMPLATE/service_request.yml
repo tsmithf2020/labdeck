@@ -1,0 +1,64 @@
+name: Service request
+description: Ask LabDeck to support a new service, or more of one it already supports.
+title: "[Service] "
+labels: ["service-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the supported list in the README first. Upvote an existing request with 👍 rather than opening a duplicate.
+  - type: input
+    id: name
+    attributes:
+      label: Service
+      placeholder: e.g. Synology DSM, Grafana, Frigate
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Project website or repository
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Request type
+      options:
+        - New service
+        - More detail for a service LabDeck already supports
+        - Install updates for this service from the app
+    validations:
+      required: true
+  - type: textarea
+    id: want
+    attributes:
+      label: What would you like to see?
+      description: The status, numbers or actions that matter to you (e.g. "disk health and pool usage", "pending updates").
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: API docs link
+      description: Link to the service's API documentation (or "none" if it has no documented API).
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: api
+    attributes:
+      label: API notes
+      description: Optional. Auth type (API key, token, user/password), whether a read-only key is possible.
+  - type: input
+    id: version
+    attributes:
+      label: Version you run
+      placeholder: e.g. 7.2
+  - type: checkboxes
+    id: test
+    attributes:
+      label: Can you test a TestFlight build?
+      description: New services ship to TestFlight first; testing against a real instance is the fastest way to get it right.
+      options:
+        - label: I can test a TestFlight build against my instance.

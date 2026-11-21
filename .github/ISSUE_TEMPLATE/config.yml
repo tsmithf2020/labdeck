@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and show-and-tell
+    url: https://github.com/tsmithf2020/labdeck/discussions
+    about: Ask how something works or share your setup.
+  - name: Support and email
+    url: https://smides.cl/labdeck/soporte
+    about: Private help, purchases and security reports (labdeck@smides.cl).
+  - name: Privacy policy
+    url: https://smides.cl/labdeck/privacidad
+    about: What LabDeck does and doesn't do with your data.

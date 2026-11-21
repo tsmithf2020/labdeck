@@ -1,0 +1,40 @@
+name: Feature idea
+description: Suggest an improvement or a new feature (for new services, use "Service request").
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. The [roadmap](https://github.com/tsmithf2020/labdeck/blob/main/ROADMAP.md) lists what's being considered, with no promises.
+        Open-ended questions fit better in Discussions.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Home / Issues
+        - Updates
+        - Widgets / Live Activities / Siri
+        - AI assistant
+        - Setup (scan, import, configure from computer)
+        - Alerts / notifications
+        - iPad / Mac
+        - Other
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you use today

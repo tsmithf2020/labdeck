@@ -1,0 +1,84 @@
+name: Bug report
+description: Something in LabDeck doesn't work as expected.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. Please **don't paste API keys, tokens, passwords or public addresses** here.
+        Security issue? Email labdeck@smides.cl instead of opening a public issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Tap ...
+        3. See ...
+  - type: input
+    id: service
+    attributes:
+      label: Service involved
+      description: Which service type, and its version if you know it (e.g. "Proxmox VE 9.1", "Home Assistant 2026.11").
+      placeholder: Proxmox VE 9.1
+  - type: input
+    id: version
+    attributes:
+      label: LabDeck version
+      description: The first line of the Diagnostics share shows it, e.g. "LabDeck 1.0 (40)".
+      placeholder: 1.0 (40)
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Mac (Designed for iPad)
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: iOS / iPadOS / macOS version
+      placeholder: iOS 26.1
+  - type: dropdown
+    id: connection
+    attributes:
+      label: How were you connected?
+      options:
+        - At home (local address)
+        - Away (second address, e.g. Tailscale or VPN)
+        - Not sure
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics log
+      description: |
+        In LabDeck: Settings > Diagnostics > (optionally pick the service) > ⋯ > Share or Copy, then paste here.
+        It has no keys, tokens, cookies, header values or query values, but it does include your service names and redirect addresses. **Read it and remove anything you don't want public.**
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Optional. Drag images here. Blur addresses if needed.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and this isn't a duplicate.
+          required: true
+        - label: I removed secrets and anything private from this report.
+          required: true
