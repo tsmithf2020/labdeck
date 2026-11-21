@@ -3,6 +3,19 @@
 
 > **These are ideas, not promises.** No dates, no guarantees, and the order can change. Some may never ship. What you ask for in issues and 👍 reactions moves things up.
 
+## In beta (TestFlight)
+
+- **Frigate NVR.** Live cameras, recent events with snapshots (zoom), zones and license plates (LPR), person alerts and a widget. Disabled cameras are hidden. Big camera grid and a "Mosaic" mode on iPad.
+
+## Next up
+
+- **Synology DSM.** Volumes, disks health, CPU/RAM and pending DSM/package updates.
+- **Emby.** Active streams and server status, next to Plex and Jellyfin.
+- **Glances and Beszel.** Host metrics (CPU, RAM, disks, temperatures) for machines that don't run Proxmox.
+- **Docker image update alerts.** Know when a container has a newer image, without installing anything automatically.
+- **Nginx Proxy Manager.** Proxy hosts status and **certificate expiry alerts** before your HTTPS breaks.
+- **Proxmox console.** Open a VM/LXC console from the phone or iPad.
+
 ## Being looked at
 
 - **More services.** Driven by [service requests](../../issues?q=label%3Aservice-request). Most-upvoted first.
