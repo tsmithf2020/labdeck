@@ -21,6 +21,6 @@
 - **Android.** LabDeck is a native iPhone/iPad app.
 - **An account, a cloud relay or a LabDeck server.** The app talks straight to your services.
 - **Analytics or tracking.**
-- **A subscription.** Pro is a one-time purchase.
+- **A mandatory subscription.** The free tier and the one-time Plus always work without one; Pro is an optional yearly subscription for unlimited services and future features.
 
 Have an idea? [Open a feature idea](../../issues/new?template=feature_idea.yml) or start a [discussion](../../discussions).

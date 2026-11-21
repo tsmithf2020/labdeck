@@ -1,11 +1,11 @@
 [![App Store](https://img.shields.io/badge/App_Store-Download-0D96F6?logo=apple&logoColor=white)](https://apps.apple.com/app/id6836890094)
 ![Platform](https://img.shields.io/badge/platform-iPhone%20%7C%20iPad%20%7C%20Mac%20(Designed%20for%20iPad)-lightgrey)
-![Price](https://img.shields.io/badge/price-free%20%2B%20one--time%20Pro-brightgreen)
+![Price](https://img.shields.io/badge/price-free%20%2B%20Plus%20%2B%20Pro-brightgreen)
 ![Privacy](https://img.shields.io/badge/tracking-none-blue)
 
 # LabDeck
 
-**A home lab dashboard for iPhone and iPad.** It finds your services, tells you what needs attention, installs updates for you, and can explain problems with your own AI. It talks to each service directly: no LabDeck account, no server of ours, no subscription.
+**A home lab dashboard for iPhone and iPad.** It finds your services, tells you what needs attention, installs updates for you, and can explain problems with your own AI. It talks to each service directly: no LabDeck account and no server of ours. No subscription required: free tier plus a one-time Plus. Pro is an optional yearly subscription for unlimited services and future features.
 
 **[Download on the App Store](https://apps.apple.com/app/id6836890094)**
 
@@ -23,7 +23,7 @@ Most homelab apps show you a status page. LabDeck is built to **act**, and to ke
 | 🔑 **Setup without copy-paste** | Network scan across VLANs, read-only API keys created from inside the app (Proxmox, Uptime Kuma, Healthchecks), and import from Homepage/Homarr configs. |
 | 🏠 **Home ↔ away, automatically** | Local address at home, Tailscale (or any second address) when you're out. Self-signed certificates pinned per service. |
 | 🧩 **One app for the whole lab** | Proxmox VE/PBS, Home Assistant, Omada, UniFi, OPNsense, AdGuard, Tailscale, Ollama, the *arr stack and more, side by side. |
-| 🔒 **No account, no server, no subscription** | It talks straight to your services. Free for 3 services; Pro is a one-time US$4.99. |
+| 🔒 **No account, no server** | It talks straight to your services. Free for 3 services; Plus (one-time US$4.99) for 6; Pro (US$4.99/year, optional) for unlimited. |
 
 ## Screenshots
 
@@ -64,21 +64,22 @@ Most homelab apps show you a status page. LabDeck is built to **act**, and to ke
 
 Missing something? [Request a service](../../issues/new?template=service_request.yml).
 
-## Free and Pro
+## Free, Plus and Pro
 
-| | Free | LabDeck Pro |
-|---|---|---|
-| Services | Up to 3 (demo services don't count) | Unlimited |
-| Widgets (Home Screen, Lock Screen, StandBy) | ✓ | ✓ |
-| Siri & Shortcuts | ✓ | ✓ |
-| Network scan, import & export, iCloud sync | ✓ | ✓ |
-| Alerts, ntfy & Gotify | ✓ | ✓ |
-| Activity & Insights history | Last 24 hours | Beyond 24 hours |
-| Live Activities | | ✓ |
-| Local AI assistant (your own Ollama) | | ✓ |
-| Configure from your computer | | ✓ |
+| | Free | LabDeck Plus | LabDeck Pro |
+|---|---|---|---|
+| Services | Up to 3 (demo services don't count) | Up to 6 | Unlimited |
+| Widgets (Home Screen, Lock Screen, StandBy) | ✓ | ✓ | ✓ |
+| Siri & Shortcuts | ✓ | ✓ | ✓ |
+| Network scan, import & export, iCloud sync | ✓ | ✓ | ✓ |
+| Alerts, ntfy & Gotify | ✓ | ✓ | ✓ |
+| Activity & Insights history | Last 24 hours | Beyond 24 hours | Beyond 24 hours |
+| Live Activities | | ✓ | ✓ |
+| Local AI assistant (your own Ollama) | | ✓ | ✓ |
+| Configure from your computer | | ✓ | ✓ |
+| Future features | | | ✓ |
 
-**LabDeck Pro is US$4.99, one time.** No subscription, shared with your family through Family Sharing. Going over 3 services never hides or deletes the ones you have; you just can't add more without Pro.
+**LabDeck Plus is US$4.99, one time. LabDeck Pro is US$4.99 per year, auto-renewing until you cancel.** Both are shared with your family through Family Sharing, and Restore Purchases covers both. Manage or cancel Pro in Settings > Apple Account > Subscriptions. No subscription required: free tier plus a one-time Plus. Pro is an optional yearly subscription for unlimited services and future features. Going over a limit never hides or deletes the services you have; you just can't add more without Plus or Pro.
 
 ## Privacy
 
@@ -99,7 +100,7 @@ Prefer email? labdeck@smides.cl. Security issue? Email, don't open a public issu
 
 ## About
 
-- **Closed source.** It's a one-person project, kept sustainable by a one-time purchase. I may open parts later, but no promises. This repo is the public place for bugs, service requests and ideas.
+- **Closed source.** It's a one-person project, kept sustainable by a one-time Plus purchase and an optional yearly Pro. I may open parts later, but no promises. This repo is the public place for bugs, service requests and ideas.
 - **Platforms.** iPhone/iPad only for now (it also runs on Apple silicon Macs as an iPad app); if there's demand, maybe later.
 - **Siri power actions.** Reboot, shut down and start need a Proxmox token with power rights. The token LabDeck creates is read-only; the first time Proxmox refuses, tap "Allow power actions" and sign in once with an admin account to add a minimal role (VM.PowerMgmt + VM.Audit on /vms).
 - **How it's built.** Built by me with heavy help from AI coding tools (Claude); I designed it, tested it and run it on my own lab every day.
@@ -108,7 +109,7 @@ Prefer email? labdeck@smides.cl. Security issue? Email, don't open a public issu
 
 I read every request and add missing services as fast as I can. The goal is one app for the whole lab, and I can't test every piece of gear myself, so if your service isn't there or something breaks, [open a request](../../issues/new/choose) and I'll work on it. If you can test a TestFlight build against your own setup, say so in the request.
 
-**Beta testers welcome:** new services and fixes land on TestFlight first. Join here: **[testflight.apple.com/join/4vK4wrtx](https://testflight.apple.com/join/4vK4wrtx)** (limited spots; Pro features are unlocked in beta).
+**Beta testers welcome:** new services and fixes land on TestFlight first. Join here: **[testflight.apple.com/join/4vK4wrtx](https://testflight.apple.com/join/4vK4wrtx)** (limited spots; Plus and Pro features are unlocked in beta).
 
 ## Links
 
