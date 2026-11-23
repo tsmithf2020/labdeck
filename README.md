@@ -56,13 +56,12 @@ Most homelab apps show you a status page. LabDeck is built to **act**, and to ke
 
 1. **Install LabDeck** from the App Store. Want to look first? Tap **Try the demo** on the first screen; demo services never count toward the free limit.
 2. **Add your first service.** Tap **+** and either:
-   - **Scan** your network. LabDeck finds known services on your subnet, and on other subnets/VLANs you can route to (it tells you when a subnet isn't reachable).
+   - **Scan network for services…** LabDeck finds known services on your subnet, and on other subnets/VLANs you can route to (it tells you when a subnet isn't reachable).
    - Pick a service and type its address, e.g. `https://192.168.1.10:8006` for Proxmox.
-   - **Import** a Homepage or Homarr config, or paste a list of URLs.
-   - Or use **Configure from your computer** to type URLs and keys on your desktop's keyboard (Plus/Pro).
-3. **Credentials.** Each service asks only for what its API needs, usually a read-only API key or token. For Uptime Kuma, Proxmox and Healthchecks, LabDeck can create a read-only key for you after you sign in once. Keys stay in your Keychain.
+   - Or, from **Settings**: **Import Services…** (a file, notes, or a Homepage/Homarr config), or **Configure from Your Computer…** to type URLs and keys on your desktop's keyboard (Plus/Pro).
+3. **Credentials.** Each service asks only for what its API needs, usually a read-only API key or token. For Uptime Kuma, Proxmox and Healthchecks, tap **Sign in to create a read-only key…** and LabDeck creates one for you. Keys stay in your Keychain.
 4. **Self-signed certificates.** If a service uses one, LabDeck shows the certificate and pins it for that service only after you accept it.
-5. **Away from home.** Add a second address (e.g. your Tailscale name) to a service. LabDeck uses the local address when it answers and the remote one otherwise.
+5. **Away from home.** In the service form, add a second address (e.g. your Tailscale name) under **Away from home**. LabDeck uses the local address when it answers and the remote one otherwise.
 6. **Updates.** Open **Updates** to see everything pending. Where the service allows it (Home Assistant update entities, TP-Link Omada devices, non-Docker Sonarr/Radarr/Prowlarr), tap **Install** and confirm.
 7. **Widgets and alerts.** Add LabDeck widgets to your Home Screen, Lock Screen or StandBy. Alerts are local; you can also receive messages from your own ntfy or Gotify.
 8. **Optional AI.** Point LabDeck at your own Ollama server in Settings to ask "what's wrong?" or tap **Explain** on a problem (Plus/Pro). Nothing is sent anywhere else.
